@@ -1,0 +1,87 @@
+
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BD Bike Bazaar</title>
+  <style>
+    body { font-family: sans-serif; background-color: #f9f9f9; margin: 0; padding: 0; }
+    header { background-color: #007bff; color: white; padding: 1em; text-align: center; }
+    nav { background-color: #0056b3; padding: 1em; text-align: center; }
+    nav a { color: white; margin: 0 10px; text-decoration: none; }
+    main { padding: 2em; }
+    .bike-listing { border: 1px solid #ccc; border-radius: 5px; padding: 1em; margin: 1em 0; background-color: white; }
+    footer { background-color: #007bff; color: white; text-align: center; padding: 1em; margin-top: 2em; }
+    form { background-color: white; padding: 1em; border-radius: 5px; box-shadow: 0 0 10px #ccc; }
+    input, textarea, select { width: 100%; padding: 0.5em; margin: 0.5em 0; }
+    button { padding: 0.5em 1em; background-color: #28a745; color: white; border: none; cursor: pointer; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>BD Bike Bazaar</h1>
+    <p>বাংলাদেশের সেরা বাইক মার্কেটপ্লেসে স্বাগতম</p>
+  </header>
+
+  <nav>
+    <a href="#bikes">বাইকসমূহ</a>
+    <a href="#sell">বাইক বিক্রি করুন</a>
+    <a href="#about">আমাদের সম্পর্কে</a>
+    <a href="#contact">যোগাযোগ</a>
+  </nav>
+
+  <main>
+    <section id="bikes">
+      <h2>বাইক লিস্টিং</h2>
+      <div class="bike-listing">
+        <h3>Yamaha FZS V3</h3>
+        <p>দাম: ১,৮০,০০০ টাকা | অবস্থান: ঢাকা</p>
+        <p>বিবরণ: ভালো অবস্থায় ব্যবহৃত, সকল কাগজপত্র ঠিক আছে।</p>
+      </div>
+      <div class="bike-listing">
+        <h3>Honda CB Hornet 160R</h3>
+        <p>দাম: ১,৫০,০০০ টাকা | অবস্থান: চট্টগ্রাম</p>
+        <p>বিবরণ: প্রথম মালিক, ২ বছর ব্যবহার।</p>
+      </div>
+    </section>
+
+    <section id="sell">
+      <h2>আপনার বাইক বিক্রি করুন</h2>
+      <form>
+        <label>আপনার নাম:</label>
+        <input type="text" required>
+        <label>মোবাইল নাম্বার:</label>
+        <input type="tel" required>
+        <label>বাইকের ব্র্যান্ড ও মডেল:</label>
+        <input type="text" required>
+        <label>দাম:</label>
+        <input type="text" required>
+        <label>অবস্থান:</label>
+        <input type="text" required>
+        <label>বিবরণ:</label>
+        <textarea rows="4"></textarea>
+        <label>ছবি আপলোড:</label>
+        <input type="file">
+        <button type="submit">পোস্ট করুন</button>
+      </form>
+    </section>
+
+    <section id="about">
+      <h2>আমাদের সম্পর্কে</h2>
+      <p>BD Bike Bazaar একটি অনলাইন বাইক মার্কেটপ্লেস যেখানে আপনি সহজেই নতুন ও পুরাতন বাইক কিনতে ও বিক্রি করতে পারেন।</p>
+    </section>
+
+    <section id="contact">
+      <h2>যোগাযোগ করুন</h2>
+      <p>মোবাইল: ০১২৩৪৫৬৭৮৯</p>
+      <p>ইমেইল: contact@bdbikebazaar.com</p>
+      <p>ফেসবুক: <a href="#">facebook.com/bdbikebazaar</a></p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; ২০২৫ BD Bike Bazaar</p>
+  </footer>
+</body>
+</html>
