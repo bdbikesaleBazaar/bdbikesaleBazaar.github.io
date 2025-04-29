@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>VoltRide X1 - Order Now</title>
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      background: #f5f5f5;
+      padding: 20px;
+      text-align: center;
+    }
+    h1 {
+      color: #2e8b57;
+    }
+    form {
+      background: white;
+      padding: 20px;
+      max-width: 500px;
+      margin: auto;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    input, textarea, select {
+      width: 100%;
+      padding: 10px;
+      margin: 10px 0;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      font-size: 16px;
+    }
+    button {
+      background-color: #28a745;
+      color: white;
+      border: none;
+      padding: 12px 20px;
+      font-size: 18px;
+      border-radius: 8px;
+      cursor: pointer;
+    }
+    button:hover {
+      background-color: #218838;
+    }
+  </style>
+</head>
+<body>
+  <h1>VoltRide X1 অর্ডার ফর্ম</h1>
+  <form action="mailto:voltcyclebd48@gmail.com" method="POST" enctype="text/plain">
+    <input type="text" name="name" placeholder="আপনার নাম" required>
+    <input type="tel" name="phone" placeholder="মোবাইল নাম্বার" required>
+    <textarea name="address" rows="3" placeholder="আপনার ঠিকানা" required></textarea>
+    <select name="delivery">
+      <option value="home">হোম ডেলিভারি</option>
+      <option value="pickup">অফিস থেকে সংগ্রহ করব</option>
+    </select>
+    <textarea name="message" rows="2" placeholder="অতিরিক্ত কিছু বলুন (যদি থাকে)"></textarea>
+    <button type="submit">অর্ডার করুন</button>
+  </form>
+</body>
+</html>
